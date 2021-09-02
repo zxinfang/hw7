@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    min-width: 1200;
+    min-width: 1409px;
     height: 100%;
     min-height: 1080px;
 }
@@ -133,8 +133,7 @@ i {
 .head {
     position: fixed;
     justify-content: space-between;
-    width: 100%;
-    min-width: 480px;
+    width: 1200px;
     height: 40px;
     background-color: #00A64E;
 }
@@ -198,8 +197,8 @@ i {
     min-width: 480px;
 }
 
-.text {
-    margin: 20px 30px;
+.text p {
+    padding: 20px;
     font-size: 26px;
     color: orangered;
 }
@@ -207,36 +206,51 @@ i {
 .collect {
     display: flex;
     flex-direction: column;
+    align-items: baseline;
     width: 100%;
     min-width: 480px;
 }
 
 .collect .text {
-    margin-left: 75px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: -50px;
 }
 
 .youtube_picture {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    min-width: 480px;
-    height: 420px;
+    overflow: hidden;
+    width: 1200px;
+    height: 500px;
+    padding-left: 50px;
 }
 
 .youtube {
-    width: 800px;
-    height: 420px;
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.youtube img {
+    width: 100%;
+    min-width: 480px;
+    height: 380px;
 }
 
 .collect-picture {
-    width: 350px;
-    height: 390px;
-    margin: 15px;
+    display: flex;
+    width: 25%;
+    height: 380px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.collect-picture img {
+    width: 100%;
+    height: 100%;
 }
 
 .collect-picture:hover {
@@ -245,8 +259,7 @@ i {
 }
 
 .eat_drink {
-    margin: 40px 0;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .block {
@@ -377,6 +390,7 @@ i {
     width: 100%;
     min-width: 480px;
     height: 100%;
+    min-height: 850px;
     margin-top: 15px;
     background-color: #f3f3f3;
 }
