@@ -124,14 +124,14 @@ i {
     min-width: 1200px;
     height: 100%;
     min-height: 1080px;
-    margin-left: 210px;
+    margin-left: 209px;
 }
 
 .head {
     position: fixed;
     justify-content: space-between;
     width: 100%;
-    min-width: 960px;
+    min-width: 1080px;
     height: 40px;
     background-color: #00A64E;
 }
@@ -191,41 +191,48 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 60px;
     width: 100%;
-    min-width: 1080px;
+    min-width: 1200px;
 }
 
 .text {
-    margin: 15px;
+    margin: 20px 30px;
     font-size: 26px;
-    margin-bottom: 25px;
     color: orangered;
+}
+
+.collect {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.collect .text {
+    margin-left: 75px;
+    margin-top: 100px;
 }
 
 .youtube_picture {
     display: flex;
     flex-direction: row;
     overflow: hidden;
+    justify-content: center;
     align-items: center;
+    width: 100%;
     height: 420px;
 }
 
 .youtube {
-    width: 850px;
-    height: 400px;
-    padding-left: 20px;
-}
-
-.collect {
-    width: 100%;
-    min-width: 991px;
+    width: 800px;
+    height: 420px;
+    padding: 15px;
 }
 
 .collect-picture {
-    width: 300px;
+    width: 350px;
     height: 390px;
-    margin: 0 20px;
+    margin: 15px;
 }
 
 .collect-picture:hover {
@@ -235,6 +242,7 @@ i {
 
 .eat_drink {
     margin: 40px 0;
+    padding: 50px;
 }
 
 .block {
@@ -290,6 +298,10 @@ i {
     font-weight: 500;
 }
 
+.activity {
+    padding: 0 50px;
+}
+
 .activity .block {
     height: 400px;
 }
@@ -299,7 +311,8 @@ i {
 }
 
 .news {
-    margin-top: 30px;
+    margin: 30px 0;
+    padding: 0 50px;
 }
 
 .information {
